@@ -25,7 +25,17 @@
 
   <!-- Custom styles for this template -->
   <link href="css/new-age.css" rel="stylesheet">
-
+  <style>
+    #mainNav{
+      color:white;
+      background:url('../img/bg-pattern.png'),#7b4397;
+      background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+    }
+    #faq-sec .section-heading{
+      padding-bottom: 20px;
+      font-weight:400;
+    }
+  </style>
 
 </head>
 <body id="page-top">
@@ -46,42 +56,71 @@
             <a class="nav-link js-scroll-trigger" href="/#features">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-    <header class="masthead">
-        <div class="container h-100">
-          <div class="row h-100">
-            <div class="col-lg-7 my-auto">
-              <div class="header-content mx-auto">
-                <h1 class="mb-5"><br>PGForYou
-                  <p>Bridging the gap between PG owners, Guests and PG mates</</p>
-                </h1>
-                <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
-              </div>
+      <section id="faq-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+                <h2 class="section-heading text-center">Frequently Answered Questions</h2>
+                <ul>
+                  <li>
+                    <h4>Why do I not see the changes made to my listing?</h4>
+                    <p>Updates made to the listing are visible after refreshing. Close and open the app and you should see your changes.</p>
+                  </li>
+                  <li>
+                    <h4>How can I save my searches?</h4>
+                    <p>Saving searches is a feature to be released in the upcoming version. Please switch on the auto-updates to get the latest releases.</p>
+                  </li>
+                  <li>
+                      <h4>Why do I have to enter my phone number to chat?</h4>
+                      <p>The app uses a third party char framework which registers users using their phone numbers. Phone number is required to register and validate a user before the chat feature can be used.</p>
+                    </li>
+                  <li>
+                      <h4>Will I be charged if I rent a place from the app?</h4>
+                      <p>For renters there is no fee.</p>
+                  </li>
+                  <li>
+                      <h4>Will I be charged for listing a place in the app?</h4>
+                      <p>There are no charges for listing. The linked account or card will be charged whenever a listing is rented from the app.</p>
+                  </li>
+                  <li>
+                      <h4>How much is the per month price for subscription?</h4>
+                      <p>The charges are calculated based on the number of listings.</p>
+                  </li>
+                </ul>
             </div>
-            <div class="col-lg-5 my-auto">
-              <div class="device-container">
-                <div class="device-mockup iphone6_plus portrait white">
-                  <div class="device">
-                    <div class="screen">
-                      <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                      <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="button">
-                      <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div> 
         </div>
-      </header>
-      <h1>Faqs</h1>
+      </section>
+      <section class="contact bg-primary" id="contact">
+          <div class="container">
+            <h2>We
+              <i class="fas fa-heart"></i>
+              new friends!</h2>
+            <ul class="list-inline list-social">
+              <li class="list-inline-item social-twitter">
+                <a href="https://twitter.com/pgforyou1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-facebook">
+                <a href="https://www.facebook.com/PgforYou-102207308155423">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-google-plus">
+                <a href="https://www.instagram.com/pgforu/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
       <footer>
         <div class="container">
           <p>&copy; Your Website 2020. All Rights Reserved.</p>
